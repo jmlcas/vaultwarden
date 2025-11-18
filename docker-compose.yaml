@@ -1,5 +1,3 @@
-version: "3.3"
-
 services:
 
   vaultwarden:
@@ -9,8 +7,5 @@ services:
       - ./vaultwarden:/data/
     ports:
       - 8200:80
-    restart: unless-stopped
+    restart: unless-stopped 
 
-    
-
-  
