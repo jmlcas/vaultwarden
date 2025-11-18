@@ -8,5 +8,8 @@ services:
     ports:
       - 8200:80
     restart: unless-stopped 
-
-
+    environment:
+     - ADMIN_TOKEN=U543Xx6Bhj+uiv9DhNDcAExM9Cef2C644CC7wwFGUh7Z4I6OvOEaYZaxjnrrKZYX  # general clave con "openssl rand -base64 48"
+     - WEBSOCKET_ENABLED=true
+     - SIGNUPS_ALLOWED=false
+     - DOMAIN=http://localhost:8200
