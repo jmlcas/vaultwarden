@@ -1,6 +1,3 @@
-# vaultwarden
-Vaultwarden - Gestor de contraseñas - Docker compose
+# Vaultwarden
 
-Ver en "localhost:8200"
-
-
+Ver en "http://ocalhost:8200"
